@@ -1,0 +1,58 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    background-image: url(./pic/snake/background.jpg);
+    background-size: cover;
+}
+
+.field {
+    width: 500px;
+    height: 500px;
+    margin: auto auto;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(5, 128, 11);
+}
+
+.excel{
+    width: 50px;
+    height: 50px;
+    padding: 5px;
+}
+
+.snakeBody{
+    background-image: url(./pic/snake/body.png);
+    background-size: cover;
+    border-radius: 40%;
+    -webkit-border-radius: 40%;
+    -moz-border-radius: 40%;
+    -ms-border-radius: 40%;
+    -o-border-radius: 40%;
+}
+
+.snakeHead{
+    background-image: url(./pic/snake/head.png);
+    background-size: cover;
+    border-radius: 40%;
+    -webkit-border-radius: 40%;
+    -moz-border-radius: 40%;
+    -ms-border-radius: 40%;
+    -o-border-radius: 40%;
+}
+
+.food{
+    background-image: url(./pic/snake/food.png);
+    background-size: cover;
+    border-radius: 40%;
+    -webkit-border-radius: 40%;
+    -moz-border-radius: 40%;
+    -ms-border-radius: 40%;
+    -o-border-radius: 40%;
+}
+
+.dead{
+    background-image: url(./pic/snake/deadSnake.png);
+}

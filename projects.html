@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewpart" content="width=device-width, initial-scale=1.0">
+  <title>MeXiKa SITE</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand">
+        <img src="./pic/Logo.png" alt="" width="50" height="50" class="d-inline-block align-text-middle">
+        MeXiKa SITE
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+      aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-link" aria-current="page" href="home.html">Home</a>
+          <a class="nav-link disabled" href="projects.html">Игры</a>
+          <a class="nav-link" href="about.html">About</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <div class="row row-cols-1 row-cols-md-4 g-4" style = "margin: auto;">
+    <div class="col">
+      <div class="card h-100 text-center">
+        <img src="pic/cpp.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">DOOM_CPP_EDITION</h5>
+          <p class="card-text">Пошаговая игра, написанная на языке C++</p>
+        </div>
+        <ul class="list-group list-group-flush">
+          Ничем не примечательная, с коротким и странным сюжетом. После её быстрого прохождения станет ясно, что она
+          была написанна где-то за 3 часа до дедлайна...
+        </ul>
+        <div class="btn-group" role="group" aria-label="Second group">
+          <button type="button" class="btn btn-primary">Играть</button>
+          <button type="button" class="btn btn-light">Читать далее</button>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card h-100 text-center" >
+        <img src="pic/Snake.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Snake</h5>
+          <p class="card-text">Игра про змейку</p>
+        </div>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">Змейка по имени Зелёныш бегает и собирает морковки, увеличиваясь в размерах...</li>
+        </ul>
+        <div class="btn-group" role="group" aria-label="Second group">
+          <button type="button" class="btn btn-primary" onclick = "location.href = 'snake.html'">Играть</button>
+          <button type="button" class="btn btn-light">Читать далее</button>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card h-100 text-center">
+        <img src="pic/russianMario.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Russian Mario</h5>
+          <p class="card-text">Путишествия Еремыча</p>
+        </div>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">Еремыч эволюционировал со стадии "одногрупник" до "wide-man" и теперь собирает шапки на Красной Площади, но не всё так просто...</li>
+        </ul>
+        <div class="btn-group" role="group" aria-label="Second group">
+          <button type="button" class="btn btn-primary" onclick = "location.href = 'russianMario.html'">Играть</button>
+          <button type="button" class="btn btn-light">Читать далее</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
